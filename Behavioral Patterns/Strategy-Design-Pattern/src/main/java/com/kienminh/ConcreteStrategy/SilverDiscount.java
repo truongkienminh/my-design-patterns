@@ -1,0 +1,9 @@
+package com.kienminh.ConcreteStrategy;
+
+import com.kienminh.Strategy.DiscountStrategy;
+
+public class SilverDiscount implements DiscountStrategy {
+    public double applyDiscount(double amount) {
+        return amount * 0.95;
+    }
+}
